@@ -19,6 +19,11 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+- **Authentication**
+```
+  python eero_auth.py
+```
+Follow the instructions to authenticate yourself to generate a session token. The passphrase you create will be required to access the other commands.
 
 - **Account Information**
 ```
