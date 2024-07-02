@@ -1,5 +1,5 @@
 # eero-py
- eero-py is a Python-based CLI tool designed to interact with the eero API. This tool allows users dump information about their eero networks through simple command-line.
+ eero-py is a Python-based CLI tool designed to interact with the eero API. This tool allows users to dump information about their eero networks through a simple command-line.
 
 ## Features
 
@@ -45,10 +45,10 @@ python eero_cli.py session
 Displays the encrypted session token if it exists.
 
 ## Output
-- ```
---output <filename>.json | <filename>.csv
 ```
-You can save the output of a quary by appending the --output switch after the command. JSON and CSV are supported.
+python eero_cli.py devices --output devices.json
+```
+You can save the output of a query by appending the --output switch after the command. JSON and CSV are supported.
 
 ## Contributing
 
@@ -56,4 +56,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
